@@ -1,0 +1,6 @@
+@PortalLatihan.API_HostAddress = http://localhost:5031
+
+GET {{PortalLatihan.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

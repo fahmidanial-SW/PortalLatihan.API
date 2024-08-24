@@ -1,0 +1,11 @@
+﻿namespace PortalLatihan.Application.ViewModel
+{
+    public class ParticipantListRequest
+    {
+        public required Guid TrainingFeeID { get; set; }
+        public required string Name { get; set; }
+        public required string IdentityNum { get; set; }
+        public required string Email { get; set; }
+        public required string Phone { get; set; }
+    }
+}
